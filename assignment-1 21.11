@@ -1,0 +1,9 @@
+x=int(input("enter the value of x: "))
+y=int(input("enter the value of y: "))
+sum = x+y
+print("The sum of ",x," and ",y," is: " ,sum)
+
+output:
+enter the value of x: 10
+enter the value of y: 15
+The sum of  10  and  15  is:  25
