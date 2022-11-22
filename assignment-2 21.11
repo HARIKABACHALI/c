@@ -1,0 +1,9 @@
+x=int(input("enter the value of x: "))
+y=int(input("enter the value of y: "))
+sub = x-y
+print("The subtraction of ",x," and ",y," is: " ,sub)
+
+output:
+enter the value of x: 15
+enter the value of y: 10
+The subtraction of  15  and  10  is:  5
