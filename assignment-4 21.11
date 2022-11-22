@@ -1,0 +1,9 @@
+x=int(input("enter the value of x: "))
+y=int(input("enter the value of y: "))
+div = x/y
+print("The division of ",x," and ",y," is: " ,div)
+
+output:
+enter the value of x: 25
+enter the value of y: 5
+The division of  25  and  5  is:  5.0
