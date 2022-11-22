@@ -1,0 +1,9 @@
+x=int(input("enter the value of x: "))
+y=int(input("enter the value of y: "))
+mul = x*y
+print("The multiplication of ",x," and ",y," is: " ,mul)
+
+output:
+enter the value of x: 5
+enter the value of y: 10
+The multiplication of  5  and  10  is:  50
