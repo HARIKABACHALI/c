@@ -1,0 +1,10 @@
+list = [2,4,6,8,10]
+i = int(input("enter the element: "))
+if i in list:
+    print("Exist")
+else:
+    print("Not Exist")
+
+output:
+enter the element: 7
+Not Exist
