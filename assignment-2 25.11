@@ -1,0 +1,5 @@
+list = [50, 30, 10, 20, 40]
+print("minimum value: ",min(list))
+
+output:
+minimum value:  10
