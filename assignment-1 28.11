@@ -1,0 +1,12 @@
+pin_number = int(input("Enter the pin number: "))
+if(pin_number==533434):
+    print("Continue the transactions")
+else:
+    print("Incorrect pin number. Please try again")
+
+output:
+Enter the pin number: 533453
+Incorrect pin number. Please try again
+
+Enter the pin number: 533434
+Continue the transactions
