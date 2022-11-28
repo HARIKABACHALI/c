@@ -1,0 +1,12 @@
+Num = int(input("Enter the Number: "))
+if (Num<100):
+    print("Number is less than 100")
+else:
+    print("Number is greater than 100")
+
+output:
+Enter the Number: 50
+Number is less than 100
+
+Enter the Number: 120
+Number is greater than 100
