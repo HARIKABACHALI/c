@@ -1,0 +1,15 @@
+balance = int(input("Balance: "))
+amount = int(input("enter amount: "))
+print("credited amount: ",amount)
+print("Main balnce: ",(amount+balance))
+
+output:
+Balance: 1000
+enter amount: 4000
+credited amount:  4000
+Main balnce:  5000
+
+Balance: 3000
+enter amount: 7000
+credited amount:  7000
+Main balnce:  10000
