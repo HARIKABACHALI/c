@@ -1,0 +1,29 @@
+empid = int(input("employee id: "))
+empname = str(input("employee name: "))
+empdisg = str(input("employee designation: "))
+bsa = int(input("basic salary: "))
+da = int(input("daily allowance: "))
+ta = int(input("travelling allowance: "))
+hra = int(input("house rental allowance: "))
+net_salary = bsa+da+ta+hra
+if(net_salary > 100000):
+    tax=net_salary*10/100
+elif(net_salary > 50000):
+    tax=net_salary*7/100
+elif(net_salary > 40000):
+    tax=net_salary*4/100
+elif(net_salary > 20000):
+    tax=net_salary*2/100
+elif(net_salary < 20000):
+    tax=0
+print(tax)
+         
+output:
+employee id: 02
+employee name: harika
+employee designation: manager
+basic salary: 30000
+daily allowance: 1000
+travelling allowance: 2000
+house rental allowance: 2500
+710.0
