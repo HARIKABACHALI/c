@@ -1,0 +1,21 @@
+sno = int(input("sno: "))
+sname = str(input("sname: "))
+group = str(input("group: "))
+s1 = int(input("s1: "))
+s2 = int(input("s2: "))
+s3 = int(input("s3: "))
+if(s1>=35):
+    if(s2>=35):
+        if(s3>=35):
+            print("pass")
+        else:
+            print("fail")
+
+output:
+sno: 02
+sname: harika
+group: bca
+s1: 45
+s2: 50
+s3: 49
+pass
